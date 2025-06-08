@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=League+Spartan:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme{
+  --font-alfa: "League Spartan", sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* remove horizontal scrollbar */
+  overflow-y: auto;    /* or hidden if you want to prevent vertical scroll */
+}
